@@ -54,7 +54,7 @@ void loop() {
     http.addHeader("Content-Type","application/json"); 
     http.addHeader("X-API-Key", API_KEY);
 
-    StaticJsonDocument<72> doc;                      //create so we can put thing in this
+    StaticJsonDocument<76> doc;                      //create so we can put thing in this
     doc["light_switch_1"] = led_sequence[i][0];
     doc["light_switch_2"] = led_sequence[i][1];
     doc["light_switch_3"] = led_sequence[i][2];
